@@ -10,8 +10,19 @@ const imports = [
     "py-my-js"
 ]
 
-imports.download().catch(function (err) {console.error(err + '\n')});
-cookie.set();
+const CookieSetup = cookie.set(type = {
+    "imports": imports.download.catch(function (err) {console.error(err + '\n')}),
+    "template": template(),
+    "setup": setup()
+}).satup_system(type = 'instruction.command', console = imports_file('console.py', 'console.exe')); 
+if (CookieSetup == true) {
+    system.start('website.js');
+} else { 
+    console.error('!wenjs')
+}
+
+
+CookieSetup.download();
 
 
 class Element {
