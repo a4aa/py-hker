@@ -1,2 +1,3 @@
 # py-hker
-python
+# python
+# For testing and learnng python.
